@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    height: 14rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    transition: 0.3s;
+    z-index: 99;
+    width: 100%;
+}
+
+.navbar .navbar-brand {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-left: 9rem;
+    color: black;
+    opacity: 100%;
+}
+
+.navbar a {
+    color: black;
+    opacity: 70%;
+}
+
+.navbar a:hover {
+    color: black;
+    opacity: 100%;
+}
+
+.navbar .nav-item {
+    margin-left: 5rem;
+}
+
+.navbar .dropdown-menu li {
+    font-size: 1.5rem;
+}
+
+.navbar .dropdown-menu {
+    border-radius: 15px;
+}
+
+.navbar-toggler {
+    border: 1px solid gray
+} 
+
+.navbar .cart-search {
+    width: 25rem;
+    margin-right: 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .cart-search a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar .cart-search img {
+    margin: 0 2rem;
+    height: 2rem;
+    opacity: 100%;
+}
+
+
+footer .details {
+    height: 45rem;
+    background-color: #f1f1f1;
+    margin-top: 10rem;
+    display: flex;
+
+}
+
+footer .details .heading {
+    font-size: 2.7rem;
+    font-weight: bold;
+    /* margin: 6rem 5rem 3rem 5rem; */
+    margin-bottom: 3rem;
+}
+
+footer .about-us {
+    width: 25rem;
+    margin: 6rem 5rem 3rem 8rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.details a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.details .location {
+    margin-top: 2rem;
+}
+
+.details a:hover {
+    opacity: 55%;
+}
+
+.details img {
+    margin-right: 2rem;
+    height: 1.9rem;
+}
+
+.about-us .category-element {
+    margin-top: 2.26rem;
+}
+
+.end {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end .social {
+    margin-bottom: 1.25rem;
+}
+
+.end .social-icons {
+    margin: 0 2rem;
+}
+
+.end .social-icons:hover {
+    opacity: 70%;
+}
+
+.end .copyright {
+    font-size: 1.5rem;
+}
+
+
+
+
+.phone{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    height: 185rem;
+    width: 112rem;
+    display: flex;
+    flex-direction: column;
+    border-width: 0.5rem;
+    margin-top: 15rem;
+    transition: 0.3s;
+}
+
+.phonecont1{
+    height: 47rem;
+    width: 110rem;
+    border-width: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.phnc1{
+    height: 46rem;
+    width: 54rem;
+    border-width: 0.5rem;
+}
+
+.phnc2{
+    height: 46rem;
+    width: 54rem;
+    display: flex;
+    flex-direction: column;
+    border-width: 0.5rem;
+}
+
+.img{
+    padding-left: 1rem;
+
+}
+
+.phonecont2{
+    border-width: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.phonecont3{
+    border-width: 0.5rem;
+    margin-top: 1rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.phonecont4{
+    border-width: 0.5rem;
+    margin-top: 1rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.phonecont4 .img{
+    align-items: center;
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.phonecont4 .img img {
+    height: 27rem;
+   
+}
+
+.phonecont4 .prices{
+    font-size: 2rem;
+}
+
+.divide{
+    position: relative;
+    left: 58rem;
+    bottom: 48rem;
+}
+
+.phonecont5{
+    border-width: 0.5rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter {
+    width: 110rem;
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-heading {
+    font-size: 4rem;
+    font-weight: 550;
+}
+
+.newsletter .newsletter-text {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    opacity: 80%;
+}
+
+.newsletter .newsletter-button {
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    border-radius: 7px;
+    padding: 0.8rem 2rem;
+}
+
+.phnc2 .cat{
+    font-size: 3rem;
+}
+
+.phnc2 .price{
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+
+.phnc2 .avail{
+    font-size: 2rem;
+}
+
+.phnc2 .share{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    border-color: yellow;
+    font-size: 2rem;
+    height: 6rem;
+}
+
+.phnc2 .share .img2{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.phnc2 .instock{
+    font-size: 2rem;
+    color: green;
+    position: relative;
+    left: 11.5rem;
+    bottom: 3rem;
+}
+
+.send{
+    width: 14.5rem;
+    margin-top: 4rem;
+    height: 7rem;
+    align-self: center;
+    background-color:black;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+
+.phonecont3 .desc{
+    font-size: 3rem;
+    padding-top: 2rem;
+    color: rgb(77, 77, 77);
+    padding-left: 2rem;
+}
+
+.phnc2 .p1{
+    font-size: 2rem;
+}
+
+.phnc2 .qty{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    background-color: gray;
+    bottom: 47rem;
+}
+
+.phnc2 .cart{
+    margin-top: 1.5rem;
+    height: 4rem;
+    width: rem;
+}
+
+.end .social-icons img{
+    width: 2rem;
+}
+
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 40%;
+    }
+
+    .phonecont1{
+        flex-direction: row;
+    }
+    .phonecont2{
+        margin-top: 30rem;
+    }
+
+    .phnc1 img{
+        width: 50rem;
+    }
+
+    .phonecont2{
+        margin-top: 3rem;
+    }
+
+    .phonecont2 img{
+        width: 12rem;
+    }
+    .phonecont4 img{
+        width: 28rem;
+    }
+
+    .phnc2 .share .img2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .phnc2 .share img{
+        width: 2rem;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    html{
+        font-size: 20%;
+    }
+
+    .phonecont1{
+        flex-direction: column;
+    }
+
+    .phonecont1 .phnc1{
+        align-self: center;
+    }
+    .phonecont1 .phnc2{
+        align-self: center;
+    }
+    .phonecont2{
+        margin-top: 48rem;
+        align-self: center;
+        margin-right: 8rem;
+    }
+
+    .phnc1 img{
+        width: 50rem;
+    }
+
+    .phonecont2 img{
+        width: 12rem;
+    }
+
+    .phonecont3{
+        align-self: center;
+    }
+    .phonecont3 .desc{
+        word-wrap:break-word;
+    }
+
+    .phonecont4{
+        margin-top: 10rem;
+        align-self: center;
+    }
+
+    .phonecont4 .img .prices{
+        align-self: center;
+        justify-content: space-evenly;
+    }
+    h1{
+        align-self: center;
+    }
+    .phonecont4 img{
+        width: 15rem;
+    }
+    .phonecont4 .img img {
+        height: 16rem;
+    }
+
+    .phonecont5{
+        width: 82rem;
+    }
+
+    hr {
+        width: 113rem;
+    }
+
+    .phnc2 .share .img2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .phnc2 .share img{
+        width: 2rem;
+    }
+
+    footer .details{
+        margin-top: 55rem;
+        display: flex;
+        
+    }
+
+
+    footer .end img{
+        width: 2rem;
+    }
+}

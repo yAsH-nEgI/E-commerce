@@ -1,0 +1,310 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.navbar {
+  height: 14rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  transition: 0.3s;
+  z-index: 99;
+  width: 100%;
+}
+
+.navbar .navbar-brand {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-left: 9rem;
+  color: black;
+  opacity: 100%;
+}
+
+.navbar a {
+  color: black;
+  opacity: 70%;
+}
+
+.navbar a:hover {
+  color: black;
+  opacity: 100%;
+}
+
+.navbar .nav-item {
+  margin-left: 5rem;
+}
+
+.navbar .dropdown-menu li {
+  font-size: 1.5rem;
+}
+
+.navbar .dropdown-menu {
+  border-radius: 2rem;
+}
+
+.navbar .cart-search {
+  width: 25rem;
+  margin-right: 9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-toggler {
+  border: 1px solid gray
+} 
+.navbar .cart-search a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar .cart-search img {
+  margin: 0 2rem;
+  height: 2rem;
+  opacity: 100%;
+}
+
+
+footer .details {
+  height: 45rem;
+  background-color: #f1f1f1;
+  margin-top: 10rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+footer .details .heading {
+  font-size: 2.7rem;
+  font-weight: bold;
+  /* margin: 6rem 5rem 3rem 5rem; */
+  margin-bottom: 3rem;
+}
+
+footer .about-us {
+  width: 25rem;
+  margin: 6rem 5rem 3rem 8rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+.details a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.details .location {
+  margin-top: 2rem;
+}
+
+.details a:hover {
+  opacity: 55%;
+}
+
+.details img {
+  margin-right: 2rem;
+  height: 1.9rem;
+}
+
+.about-us .category-element {
+  margin-top: 2.26rem;
+}
+
+.end {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.end .social {
+  margin-bottom: 1.25rem;
+}
+
+.end .social-icons {
+  margin: 0 2rem;
+}
+
+.end .social-icons:hover {
+  opacity: 70%;
+}
+
+.heading a{
+  color: black;
+}
+
+.end .copyright {
+  font-size: 1.5rem;
+}
+
+
+
+input[type=text], select {
+    width: 42rem;
+    display: inline-block;
+    border: 0.4rem solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .maincontainer .formc .lname {
+    margin-left: 5rem;
+  }
+
+  .send{
+    width: 12rem;
+    height: 5rem;
+    /* margin-left: 2rem; */
+    font-size: 1.5rem;
+    border-radius: 7px;
+  }
+
+  .headimg{
+    margin-top: 2rem;
+    color:black;
+    width: 142rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 31rem;
+    transition: 0.3s;
+  }
+
+  .headimg a{
+    position: absolute;
+    left: 18rem;
+    top: 40rem;
+    color:white;
+    font-size: 2.2rem;
+  }
+
+  .maincontainer{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45rem;
+    width: 130rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .formc{
+    padding-left: 1rem;
+    height: 78rem;
+    width: 95rem;
+  }
+
+  .maincontainer .form1{
+    width: 93rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .maincontainer .form2{
+    width: 93rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  input[type=text2], select {
+    width: 88rem;
+    /* padding: 2rem 8rem;
+    margin: 2rem; */
+    display: inline-block;
+    border: 0.4rem solid #ccc;
+    box-sizing: border-box;
+    height: 5rem;
+    font-size: 2.5rem;
+  }
+
+  .maincontainer .form3{
+    width: 93rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  input[type=text3], select {
+    width: 88rem;
+    padding: 12.1rem 8rem;
+    margin: 2rem;
+    display: inline-block;
+    border: 0.4rem solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .maincontainer .formc {
+    font-size: 2.5rem;
+  }
+
+  .maincontainer .formc .form-control {
+    font-size: 1.7rem;
+  }
+
+  .heading{
+      font-size: 3rem;
+      font-weight: bold;
+  }
+
+  .text{
+      color: gray;
+      font-size: 2rem;
+  }
+
+  .prom{
+    padding-left: 7rem;
+    height: 78rem;
+    width: 40rem;
+    border-color: #4CAF50;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text2{
+    padding-top: 2.5rem;
+    margin-bottom: 4rem;
+    color: gray;
+    font-size: 2rem;
+}
+
+.end .social-icons img{
+  width: 2rem;
+}
+
+@media only screen and (max-width: 1024px){
+  html{
+      font-size: 30%;
+  }
+
+  .headimg img{
+    width: 145rem;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  html{
+      font-size: 16%;
+  }
+
+  .headimg img{
+    width: 140rem;
+  }
+
+  .maincontainer{
+    margin-top: 60rem;
+    flex-direction: column-reverse;
+  }
+
+  .end img{
+    width: 3rem;
+  }
+}
